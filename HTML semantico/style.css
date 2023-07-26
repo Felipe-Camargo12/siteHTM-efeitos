@@ -1,0 +1,127 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+header{
+    box-shadow: 0px 5px 15px rgb(9, 7, 9);
+    background-color: rgb(33, 1, 57);
+    padding: 10px;
+    align-items: center;
+    
+}
+
+header li{
+    transition: 0.3s;
+}
+
+header li:hover{
+    font-size:22px;
+}
+
+header ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+}
+
+main{
+    background-image: linear-gradient(to right, rgba(20, 0, 30, 0.5), rgba(70, 10, 90, 0.5),   rgba(20, 0, 30, 0.5));
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+}
+
+#sobre div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap: 20px;
+    width: 400px;
+    height: 120px;
+}
+
+#sobre p{
+    width: 240px;
+    height: 100px;
+    text-align: justify;
+}
+
+#sobre img{
+    width: 100px;
+    height: 100px;
+}
+
+#contato form{
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(40,0,70);
+    padding: 10px;
+} 
+
+h2, h1{
+    text-align: center;
+}
+
+textarea{
+    width: 400px;
+    height: 60px;
+}
+
+#sobre{
+    box-shadow: 0px 5px 15px rgb(162, 49, 162);
+    background-color: rgb(40,0,70);
+    padding: 10px;
+    align-items: center;
+    transition: 0.3s;
+}
+
+#sobre:hover{   
+     box-shadow: 0px 5px 25px rgb(162, 49, 162);
+}
+
+#linguagens div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 400px;
+    
+}
+
+#linguagens img{
+    width: 100px;
+    height: 100px;
+}
+
+#linguagens, img{
+    transition: 0.3s;
+    color: rgba(40,0,70, 0);
+}
+
+#linguagens:hover{ 
+    color: rgba(255,255,255, 100);
+}
+
+#linguagens{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#linguagens:hover{
+    -webkit-filter: drop-shadow(20px 20px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(20px 20px 5px rgb(0,0,0,.5));
+}
